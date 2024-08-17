@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #d9f0ff;
+  height: 100vh;
+}
+.container {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+h1 {
+  color: #2d2a32;
+  text-align: center;
+  width: 100%;
+}
+input {
+  background-color: darkgrey;
+  color: black;
+  border-radius: 5px;
+}
+button {
+  background-color: darkgray;
+  color: black;
+}
+button:hover {
+  cursor: pointer;
+  background-color: gold;
+}
+.weather-info {
+  position: fixed;
+  top: 50px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 1.2rem;
+  text-align: center;
+  background-color: white;
+  border: 1px solid #ccc;
+}
